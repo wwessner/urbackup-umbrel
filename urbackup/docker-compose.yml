@@ -13,7 +13,7 @@ services:
       - PGID=1000  # Enter the GID of the user who should own the files here
       - TZ=Europe/Madrid # Enter your timezone
     volumes:
-      - /home/umbrel/umbrel/network/ds213-nas.local/UrBackup/db:/var/urbackup
+      - ${APP_DATA_DIR}/data/db:/var/urbackup
       - /home/umbrel/umbrel/network/ds213-nas.local/UrBackup/backups:/backups
       # Uncomment the next line if you want to bind-mount the www-folder
       #- /path/to/wwwfolder:/usr/share/urbackup
