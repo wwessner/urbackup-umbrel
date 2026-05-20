@@ -4,7 +4,7 @@ name: UrBackup
 tagline: UrBackup
 icon: https://svgshare.com/i/17mr.svg
 category: music
-version: "1.0.0"
+version: "2.0.0"
 port: 55414
 description: >-
   UrBackup is an easy to setup Open Source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time.
